@@ -1,4 +1,4 @@
-export class Seller {
+export default class Seller {
     constructor(name) {
         this.name = name;
     }
@@ -8,6 +8,6 @@ export class Seller {
     }
 
     sold(buyer) {
-console.log(`Sold to buyer: ${buyer} `);
+        console.log(`Sold to buyer: ${buyer} `);
     }
 }
